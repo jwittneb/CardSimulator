@@ -1,6 +1,6 @@
 #include <iostream>
 #include "player.h"
-#include "card.h"
+#include "monster.h"
 #include "cardList.h"
 
 using namespace std;
@@ -14,7 +14,7 @@ using namespace std;
 int main() {
   
   
-  vector<Card> deck1;
+  vector<Card> deck;
 
   deck.push_back(goblin);
   deck.push_back(goblin);
