@@ -4,14 +4,16 @@
 #include "card.h"
 
 class Board {
-  player1Board;
-  player2Board;
+  
+  //Contains the cards on the corresponding side of the board
+  Card* Player1Cards;
+  Card* Player2Cards;
 
   //1 if player 1's turn, 2 if player 2's turn
   int currPlayer;
 
   public:
-    void playCard(Player thePlayer,
+    void playCard(Player thePlayer);
     void declareAttack(Player thePlayer, Card attacker, Card defender=0);
 
     bool isGameOver();

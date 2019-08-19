@@ -13,6 +13,12 @@ using namespace std;
 
 int main() {
   
+  // Phases:
+  // 1. Intialize
+  // 2. Player turn start
+  // 3. Play Card/attack, activate effects, repeat
+  // 4. end turn
+
   
   vector<Card> deck;
 
